@@ -31,6 +31,35 @@ Key features:
    pip install numpy pandas matplotlib tensorflow
    ```
 
-   The data was obtained from [jigsaw toxic classification challenge](https://www.kaggle.com/competitions/jigsaw-toxic-comment-classification-challenge)
+## Data
+   The data was obtained from [jigsaw toxic classification challenge](https://www.kaggle.com/competitions/jigsaw-toxic-comment-classification-challenge).
+
+## Model Summary
+
+Model: "model_1"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ input_3 (InputLayer)        [(None, 250)]             0         
+                                                                 
+ embedding_4 (Embedding)     (None, 250, 128)          2560000   
+                                                                 
+ lstm_layer (LSTM)           (None, 250, 60)           45360     
+                                                                 
+ global_max_pooling1d_2 (Glo (None, 60)                0         
+balMaxPooling1D)                                                
+                                                                 
+ dropout_3 (Dropout)         (None, 60)                0         
+                                                                 
+ dense_2 (Dense)             (None, 50)                3050      
+                                                                 
+ dropout_5 (Dropout)         (None, 50)                0         
+                                                                 
+ dense_4 (Dense)             (None, 6)                 306       
+                                                                 
+=================================================================
+Total params: 2,611,266
+Trainable params: 2,611,266
+Non-trainable params: 0
 
     
