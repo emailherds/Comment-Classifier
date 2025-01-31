@@ -33,9 +33,9 @@ This repository contains a **Long Short-Term Memory (LSTM)** model that classifi
 - `insult`
 - `identity_hate`
 
-# Built With
+## Built With
 
-
+<span><img src="assets/tensorflow.png" alt="Logo" width="300" height="150"><img src="assets/keras.png" alt="Logo" width="300" height="100"></span>
 
 ## Overview
 
