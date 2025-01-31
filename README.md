@@ -35,7 +35,7 @@ This repository contains a **Long Short-Term Memory (LSTM)** model that classifi
 
 ## Built With
 
-<img src="assets/tensorflow.png" alt="Logo" width="150" height="150">
+<span><img src="assets/tensorflow.png" alt="Logo" width="300" height="150"><img src="assets/keras.png" alt="Logo" width="300" height="150"></span>
 
 ## Overview
 
