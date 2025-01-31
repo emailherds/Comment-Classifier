@@ -1,6 +1,8 @@
 <p align="center">
-    <img src="assets/lstm.png" alt="Logo" width="150" height="150">
+    <img src="assets/lstm.png" alt="Logo" width="300" height="150">
 </p>
+<h3 align="center">Toxic Comment Classifier</h3>
+
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
