@@ -1,4 +1,30 @@
-# Comment Classifier Using LSTM
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#dependencies">Dependencies</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#authors">Authors</a></li>
+    <li><a href="#acknowledgements">Acknowledgements</a></li>
+  </ol>
+</details>
+
+# About the Project
 
 This repository contains a **Long Short-Term Memory (LSTM)** model that classifies text comments according to multiple toxicity labels:
 
@@ -33,33 +59,4 @@ Key features:
 
 ## Data
    The data was obtained from [jigsaw toxic classification challenge](https://www.kaggle.com/competitions/jigsaw-toxic-comment-classification-challenge).
-
-## Model Summary
-
-Model: "model_1"
-_________________________________________________________________
- Layer (type)                Output Shape              Param #   
-=================================================================
- input_3 (InputLayer)        [(None, 250)]             0         
-                                                                 
- embedding_4 (Embedding)     (None, 250, 128)          2560000   
-                                                                 
- lstm_layer (LSTM)           (None, 250, 60)           45360     
-                                                                 
- global_max_pooling1d_2 (Glo (None, 60)                0         
-balMaxPooling1D)                                                
-                                                                 
- dropout_3 (Dropout)         (None, 60)                0         
-                                                                 
- dense_2 (Dense)             (None, 50)                3050      
-                                                                 
- dropout_5 (Dropout)         (None, 50)                0         
-                                                                 
- dense_4 (Dense)             (None, 6)                 306       
-                                                                 
-=================================================================
-Total params: 2,611,266
-Trainable params: 2,611,266
-Non-trainable params: 0
-
     
