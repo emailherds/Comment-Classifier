@@ -1,7 +1,7 @@
 <p align="center">
     <img src="assets/lstm.png" alt="Logo" width="300" height="150">
 </p>
-<h3 align="center">Toxic Comment Classifier</h3>
+<h2 align="center">Toxic Comment Classifier</h2>
 
 
 <!-- TABLE OF CONTENTS -->
@@ -28,7 +28,7 @@
   </ol>
 </details>
 
-# About the Project
+## About the Project
 
 This repository contains a **Long Short-Term Memory (LSTM)** model that classifies text comments according to multiple toxicity labels:
 
