@@ -11,16 +11,11 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#dependencies">Dependencies</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#installation-and-requirements">Installation and Requirements</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#authors">Authors</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
+    <li><a href="#data">Data</a></li>
   </ol>
 </details>
 
@@ -54,7 +49,7 @@ Key features:
 1. **Python 3.7+** recommended  
 2. Required libraries (install via `pip`):
    ```bash
-   pip install numpy pandas matplotlib tensorflow
+   conda install numpy pandas matplotlib tensorflow
    ```
 
 ## Data
