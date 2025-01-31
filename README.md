@@ -1,3 +1,7 @@
+<p align="center">
+    <img src="assets/lstm.png" alt="Logo" width="150" height="150">
+</p>
+
 <!-- TABLE OF CONTENTS -->
 <details open="open">
   <summary>Table of Contents</summary>
@@ -17,8 +21,8 @@
         <li><a href="#installation-and-requirements">Installation and Requirements</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
     <li><a href="#data">Data</a></li>
+    <li><a href="#usage">Usage</a></li>
   </ol>
 </details>
 
@@ -35,7 +39,7 @@ This repository contains a **Long Short-Term Memory (LSTM)** model that classifi
 
 ## Built With
 
-<span><img src="assets/tensorflow.png" alt="Logo" width="300" height="150"><img src="assets/keras.png" alt="Logo" width="300" height="100"></span>
+<span><img src="assets/tensorflow.png" alt="Logo" width="250" height="150"><img src="assets/keras.png" alt="Logo" width="300" height="100"></span>
 
 ## Overview
 
