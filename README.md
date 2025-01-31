@@ -9,6 +9,9 @@
       </ul>
     </li>
     <li>
+      <a href="#overview">Overview</a>
+    </li>
+    <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#installation-and-requirements">Installation and Requirements</a></li>
@@ -30,6 +33,10 @@ This repository contains a **Long Short-Term Memory (LSTM)** model that classifi
 - `insult`
 - `identity_hate`
 
+# Built With
+
+
+
 ## Overview
 
 The goal is to demonstrate how to build and train an LSTM model to detect and classify toxic comments. The model takes raw text, tokenizes and pads it, then outputs predictions on the six labels above.
@@ -44,10 +51,10 @@ Key features:
 - **Dropout**: Mitigate overfitting  
 - **Dense Layers**: Classify into 6 binary labels using a sigmoid activation  
 
-## Installation & Requirements
+## Installation and Requirements
 
 1. **Python 3.7+** recommended  
-2. Required libraries (install via `pip`):
+2. Required libraries (install via `conda`):
    ```bash
    conda install numpy pandas matplotlib tensorflow
    ```
